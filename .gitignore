@@ -1,0 +1,38 @@
+# Gradle / Kotlin
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+*.class
+*.log
+# IDE
+.idea/
+*.iml
+.vscode/
+# Android
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+# Secrets / signing - never commit
+*.jks
+*.keystore
+*.p12
+google-services.json
+.env
+.env.*
+keystore.properties
+# OS
+.DS_Store
+Thumbs.db
+# Xcode (iOS)
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+Pods/
+# Generated reports
+*.hprof

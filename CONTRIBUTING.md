@@ -22,7 +22,7 @@ Rules and commands for anyone changing this repository.
 - Dispatchers injected; camera analysis drops frames (`STRATEGY_KEEP_ONLY_LATEST`), never queues them.
 
 ## Build and test commands
-(To be confirmed in M0; update this section as soon as the wrapper exists.)
+No Gradle wrapper is committed yet: use `gradle` (9.8.0; CI installs it via setup-gradle) until M0 adds the wrapper, then switch to `./gradlew`.
 ```
 ./gradlew ktlintCheck detekt lint     # style, static analysis, Android lint
 ./gradlew testDebugUnitTest           # unit tests

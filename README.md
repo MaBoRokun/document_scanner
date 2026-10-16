@@ -8,7 +8,6 @@ Android receipt and document scanner with on-device ML, CameraX, native C++ edge
 ![Languages](https://img.shields.io/badge/languages-EN%20DE%20FR%20PT%20ES-blue)
 [![CI](https://github.com/MaBoRokun/document_scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/MaBoRokun/document_scanner/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/MaBoRokun/document_scanner)](https://github.com/MaBoRokun/document_scanner/releases)
-<!-- Badges for private repos render only for signed-in collaborators. -->
 
 ![Library, scan, adjust page, result screen, share dialog, page editor, library](docs/media/demo.gif)
 
@@ -93,7 +92,7 @@ is the only module that sees implementations. UI text lives in string resources.
 3. Open the APK and confirm the install.
 
 A debug APK can also be built on demand from **Actions → APK (debug) → Run workflow** (kept 14 days as a workflow artifact).
-This repository is private, so you must be signed in to GitHub to download.
+Downloading workflow artifacts requires being signed in to GitHub.
 
 Requires Android 8.0 (API 26) or newer. Built for Android 17 (API 37).
 

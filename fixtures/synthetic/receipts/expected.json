@@ -1,0 +1,163 @@
+[
+  {
+    "file": "receipt_0.png",
+    "merchant": "Blue Bakery",
+    "date": "2026-04-19",
+    "totalMinor": 3518,
+    "currency": "EUR",
+    "items": [
+      {
+        "name": "Pasta",
+        "priceMinor": 1084
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 1778
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 160
+      },
+      {
+        "name": "Juice",
+        "priceMinor": 496
+      }
+    ]
+  },
+  {
+    "file": "receipt_1.png",
+    "merchant": "Fresh Market",
+    "date": "2026-09-26",
+    "totalMinor": 7337,
+    "currency": "USD",
+    "items": [
+      {
+        "name": "Tea",
+        "priceMinor": 1271
+      },
+      {
+        "name": "Tea",
+        "priceMinor": 1800
+      },
+      {
+        "name": "Notebook",
+        "priceMinor": 1716
+      },
+      {
+        "name": "Pasta",
+        "priceMinor": 1505
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 578
+      },
+      {
+        "name": "Pen",
+        "priceMinor": 467
+      }
+    ]
+  },
+  {
+    "file": "receipt_2.png",
+    "merchant": "Corner Cafe",
+    "date": "2026-02-01",
+    "totalMinor": 4396,
+    "currency": "GBP",
+    "items": [
+      {
+        "name": "Milk",
+        "priceMinor": 818
+      },
+      {
+        "name": "Notebook",
+        "priceMinor": 652
+      },
+      {
+        "name": "Juice",
+        "priceMinor": 899
+      },
+      {
+        "name": "Coffee",
+        "priceMinor": 1835
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 192
+      }
+    ]
+  },
+  {
+    "file": "receipt_3.png",
+    "merchant": "Green Pharmacy",
+    "date": "2026-01-01",
+    "totalMinor": 9059,
+    "currency": "EUR",
+    "items": [
+      {
+        "name": "Pasta",
+        "priceMinor": 969
+      },
+      {
+        "name": "Coffee",
+        "priceMinor": 1913
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 1421
+      },
+      {
+        "name": "Juice",
+        "priceMinor": 1451
+      },
+      {
+        "name": "Pasta",
+        "priceMinor": 1115
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 333
+      },
+      {
+        "name": "Milk",
+        "priceMinor": 1857
+      }
+    ]
+  },
+  {
+    "file": "receipt_4.png",
+    "merchant": "Night Owl Books",
+    "date": "2026-04-08",
+    "totalMinor": 7038,
+    "currency": "USD",
+    "items": [
+      {
+        "name": "Bread",
+        "priceMinor": 1002
+      },
+      {
+        "name": "Pen",
+        "priceMinor": 1901
+      },
+      {
+        "name": "Notebook",
+        "priceMinor": 1068
+      },
+      {
+        "name": "Bread",
+        "priceMinor": 1058
+      },
+      {
+        "name": "Pen",
+        "priceMinor": 477
+      },
+      {
+        "name": "Juice",
+        "priceMinor": 656
+      },
+      {
+        "name": "Notebook",
+        "priceMinor": 876
+      }
+    ]
+  }
+]

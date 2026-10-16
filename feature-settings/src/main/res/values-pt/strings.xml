@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Voltar</string>
+    <string name="settings">Configurações</string>
+    <string name="section_scanning">Digitalização</string>
+    <string name="quick_scan_title">Digitalização rápida (Google)</string>
+    <string name="quick_scan_on">Usa o scanner de documentos do Google, executado pelos serviços do Google Play.</string>
+    <string name="quick_scan_off">Requer os serviços do Google Play, que este dispositivo não tem.</string>
+    <string name="paper_size">Tamanho do papel</string>
+    <string name="paper_detail">Exibido durante a digitalização</string>
+    <string name="none">Nenhum</string>
+    <string name="section_assistants">Assistentes</string>
+    <string name="assistants_title">Permitir que assistentes pesquisem meus documentos</string>
+    <string name="assistants_on">Compartilha apenas títulos, datas e totais, nunca imagens ou o texto completo.</string>
+    <string name="assistants_off">Requer Android 16 ou mais recente.</string>
+    <string name="section_privacy">Privacidade</string>
+    <string name="privacy_network">Este app não tem permissão de rede e não pode enviar nada a lugar nenhum.</string>
+    <string name="privacy_no_tracking">Sem análises, sem contas, sem nuvem.</string>
+    <string name="privacy_storage">Documentos, textos e exportações ficam no armazenamento privado do app até você compartilhá-los.</string>
+    <string name="privacy_on_device">O reconhecimento de texto e a detecção de bordas são executados neste dispositivo.</string>
+    <string name="privacy_quick_scan">A digitalização rápida é opcional: ela é executada pelos serviços do Google Play, que podem baixar o próprio modelo.</string>
+</resources>

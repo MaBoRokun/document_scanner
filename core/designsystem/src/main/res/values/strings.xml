@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="category_receipt">Receipt</string>
+    <string name="category_passport">Passport / ID</string>
+    <string name="category_book_page">Book page</string>
+    <string name="category_a4_page">A4 page</string>
+    <string name="category_document">Document</string>
+    <string name="category_other">Other</string>
+    <string name="capture">Capture</string>
+    <string name="close">Close</string>
+</resources>

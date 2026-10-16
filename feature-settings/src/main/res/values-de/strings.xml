@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Zurück</string>
+    <string name="settings">Einstellungen</string>
+    <string name="section_scanning">Scannen</string>
+    <string name="quick_scan_title">Schnellscan (Google)</string>
+    <string name="quick_scan_on">Verwendet den Dokumentenscanner von Google, der von den Google Play-Diensten bereitgestellt wird.</string>
+    <string name="quick_scan_off">Benötigt Google Play-Dienste, die auf diesem Gerät nicht vorhanden sind.</string>
+    <string name="paper_size">Papierformat</string>
+    <string name="paper_detail">Wird beim Scannen angezeigt</string>
+    <string name="none">Keines</string>
+    <string name="section_assistants">Assistenten</string>
+    <string name="assistants_title">Assistenten das Durchsuchen meiner Dokumente erlauben</string>
+    <string name="assistants_on">Gibt nur Titel, Daten und Summen weiter, nie Bilder oder den vollständigen Text.</string>
+    <string name="assistants_off">Benötigt Android 16 oder neuer.</string>
+    <string name="section_privacy">Datenschutz</string>
+    <string name="privacy_network">Diese App hat keine Netzwerkberechtigung und kann nichts irgendwohin senden.</string>
+    <string name="privacy_no_tracking">Keine Analysen, keine Konten, keine Cloud.</string>
+    <string name="privacy_storage">Dokumente, Text und Exporte bleiben im privaten Speicher der App, bis du sie selbst teilst.</string>
+    <string name="privacy_on_device">Texterkennung und Kantenerkennung laufen auf diesem Gerät.</string>
+    <string name="privacy_quick_scan">Der Schnellscan ist optional: Er wird von den Google Play-Diensten ausgeführt und lädt eventuell ein eigenes Modell herunter.</string>
+</resources>

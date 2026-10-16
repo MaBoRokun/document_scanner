@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Scannen</string>
+    <string name="add_page">Seite hinzufügen</string>
+    <string name="camera_access">Kamerazugriff</string>
+    <string name="camera_rationale">Doc Scanner verwendet die Kamera zum Scannen von Dokumenten. Nichts, was du scannst, verlässt jemals dein Gerät.</string>
+    <string name="allow_camera">Kamera erlauben</string>
+    <string name="camera_off">Kamera ist ausgeschaltet</string>
+    <string name="camera_off_message">Aktiviere den Kamerazugriff in den App-Einstellungen, um Dokumente zu scannen.</string>
+    <string name="open_settings">Einstellungen öffnen</string>
+    <string name="busy_saving">Seite wird begradigt und Text wird gelesen …</string>
+    <string name="busy_ready">Wird vorbereitet …</string>
+    <string name="quick_scan_unavailable">Schnellscan nicht verfügbar</string>
+    <string name="close">Schließen</string>
+    <string name="something_wrong">Etwas ist schiefgelaufen</string>
+    <string name="dismiss">Schließen</string>
+    <string name="reset_corners">Ecken zurücksetzen</string>
+    <string name="no_paper_size">Kein Papierformat</string>
+    <string name="choose_paper_size">Papierformat wählen</string>
+    <string name="adjust_page">Seite anpassen</string>
+    <string name="retake">Neu aufnehmen</string>
+    <string name="save">Speichern</string>
+    <string name="captured_photo">Aufgenommenes Foto</string>
+    <string name="edge_mm">≈ %1$d mm (geschätzt)</string>
+    <string name="hint_tilted">Die Seite ist schief. Halte das Handy parallel dazu.</string>
+    <string name="hint_blurry">Das Bild ist unscharf. Halte ruhig.</string>
+    <string name="hint_low_confidence">Die Seitenränder sind unklar. Versuche einen einfarbigen, kontrastreichen Hintergrund.</string>
+    <string name="hint_too_small">Näher heran: Die Seite füllt zu wenig vom Bild.</string>
+    <string name="hint_aspect">Die Proportionen passen nicht zu diesem Papier. Prüfe Format oder Winkel.</string>
+    <string name="status_point">Richte die Kamera auf eine Seite</string>
+    <string name="status_found_paper">Seite gefunden. Größen sind Schätzwerte.</string>
+    <string name="status_manual">Ecken von dir gesetzt. Bereit zur Aufnahme.</string>
+    <string name="status_found">Seite gefunden. Bereit zur Aufnahme.</string>
+    <string name="error_read_photo">Foto konnte nicht gelesen werden: %1$s</string>
+    <string name="error_save_scan">Scan konnte nicht gespeichert werden: %1$s</string>
+    <string name="error_capture">Aufnahme fehlgeschlagen: %1$s</string>
+    <string name="error_camera">Kamera nicht verfügbar: %1$s</string>
+    <string name="error_quick_scan">Schnellscan ist nicht verfügbar: %1$s</string>
+    <string name="error_unknown">unbekannter Fehler</string>
+</resources>

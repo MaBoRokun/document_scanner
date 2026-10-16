@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Describes the app to assistants; the system indexer requires it next to the function descriptions. -->
+<AppFunctionAppMetadata xmlns:appfn="http://schemas.android.com/apk/androidx.appfunctions"
+    appfn:description="Scans and stores the user's receipts and documents on this device.
+    Operational patterns:
+    - Use 'searchDocuments' to find scanned documents by title, merchant or text.
+    Constraints:
+    - Only titles, scan dates, totals and page counts are returned, never images or full text.
+    - At most 20 results are returned, newest first."
+    appfn:displayDescription="@string/app_functions_display_description" />

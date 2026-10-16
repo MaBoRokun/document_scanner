@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="section_scanning">Scanning</string>
+    <string name="quick_scan_title">Quick scan (Google)</string>
+    <string name="quick_scan_on">Use Google\'s document scanner, run by Google Play services.</string>
+    <string name="quick_scan_off">Needs Google Play services, which this device does not have.</string>
+    <string name="paper_size">Paper size</string>
+    <string name="paper_detail">Shown while scanning</string>
+    <string name="none">None</string>
+    <string name="section_assistants">Assistants</string>
+    <string name="assistants_title">Let assistants search my documents</string>
+    <string name="assistants_on">Shares titles, dates and totals only, never images or full text.</string>
+    <string name="assistants_off">Needs Android 16 or newer.</string>
+    <string name="section_privacy">Privacy</string>
+    <string name="privacy_network">This app has no network permission and cannot send anything anywhere.</string>
+    <string name="privacy_no_tracking">No analytics, no accounts, no cloud.</string>
+    <string name="privacy_storage">Documents, text and exports stay in the app\'s private storage until you share them yourself.</string>
+    <string name="privacy_on_device">Text recognition and edge detection run on this device.</string>
+    <string name="privacy_quick_scan">Quick scan is optional: Google Play services runs it, and may fetch its own model.</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tool_crop">Recadrer</string>
+    <string name="tool_adjust">Ajuster</string>
+    <string name="tool_filters">Filtres</string>
+    <string name="tool_draw">Dessiner</string>
+    <string name="pen_thin">Fin</string>
+    <string name="pen_medium">Moyen</string>
+    <string name="pen_thick">Épais</string>
+    <string name="tint_none">Aucun</string>
+    <string name="tint_warm">Chaud</string>
+    <string name="tint_cool">Froid</string>
+    <string name="tint_sepia">Sépia</string>
+    <string name="tint_mono">Mono</string>
+    <string name="tint_vivid">Éclatant</string>
+    <string name="mode_original">Original</string>
+    <string name="mode_document">Document</string>
+    <string name="mode_bw">N&amp;B</string>
+    <string name="color_black">Noir</string>
+    <string name="color_white">Blanc</string>
+    <string name="color_red">Rouge</string>
+    <string name="color_yellow">Jaune</string>
+    <string name="color_blue">Bleu</string>
+    <string name="pen_colour">Couleur du stylo : %1$s</string>
+    <string name="crop_hint">Faites glisser les coins sur les bords de la page.</string>
+    <string name="crop_removes_drawing">Modifier le recadrage supprime votre dessin. Annuler le rétablit.</string>
+    <string name="draw_hint">Dessinez avec le doigt pour pointer quelque chose ou le masquer.</string>
+    <string name="brightness">Luminosité</string>
+    <string name="page_gone">Cette page n’existe plus.</string>
+    <string name="original_photo">Photo d’origine</string>
+    <string name="page_preview">Aperçu de la page</string>
+    <string name="discard_title">Abandonner les modifications ?</string>
+    <string name="discard_message">Vos modifications de cette page n’ont pas été enregistrées.</string>
+    <string name="discard">Abandonner</string>
+    <string name="keep_editing">Continuer à modifier</string>
+    <string name="edit_page">Modifier la page</string>
+    <string name="undo_cd">Annuler la dernière modification</string>
+    <string name="saving">Enregistrement…</string>
+    <string name="save">Enregistrer</string>
+</resources>

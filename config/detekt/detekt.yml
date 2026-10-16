@@ -1,0 +1,33 @@
+naming:
+  MatchingDeclarationName:
+    active: false # a composable and its small holder class may share a file
+  FunctionNaming:
+    ignoreAnnotated:
+      - 'Composable'
+style:
+  DestructuringDeclarationWithTooManyEntries:
+    maxDestructuringEntries: 4 # a Quad has four corners
+  MagicNumber:
+    ignoreNumbers:
+      - '-1'
+      - '0'
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '90'
+      - '180'
+      - '270'
+      - '360'
+complexity:
+  LongMethod:
+    ignoreAnnotated:
+      - 'Composable'
+  LongParameterList:
+    ignoreAnnotated:
+      - 'Composable'
+    ignoreDefaultParameters: true
+  TooManyFunctions:
+    allowedFunctionsPerClass: 20 # view models expose one function per user action
+    allowedFunctionsPerInterface: 25 # Room DAOs list one function per query
+    allowedFunctionsPerFile: 25 # a Compose screen is many small composables

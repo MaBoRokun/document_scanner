@@ -23,12 +23,19 @@ jobs:
           distribution: temurin
           java-version: 17
       - uses: gradle/actions/setup-gradle@v6
-        with:
-          gradle-version: 9.8.0
       - name: Accept Android SDK licenses
         run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
       - name: Style, static analysis, lint, tests, debug build
-        run: gradle ktlintCheck detekt lint check assembleDebug --stacktrace
+        run: ./gradlew ktlintCheck detekt lint check assembleDebug --stacktrace
+      - name: APK smoke check (package, no INTERNET)
+        run: bash tools/check_apk.sh app/build/outputs/apk/debug/app-debug.apk
+      - name: Coverage summary
+        if: always()
+        run: |
+          {
+            echo "### Coverage"
+            ./gradlew -q :koverLog 2>/dev/null || true
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Upload reports
         if: always()
         uses: actions/upload-artifact@v7

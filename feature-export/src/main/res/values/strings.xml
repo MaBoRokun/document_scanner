@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share">Share</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="document_not_found">Document not found</string>
+    <string name="document_not_found_hint">It may have been deleted.</string>
+    <string name="preparing_file">Preparing your file</string>
+    <string name="page_progress">Page %1$d of %2$d</string>
+    <string name="ready_to_share">Ready to share</string>
+    <string name="export_failed_title">Export failed</string>
+    <string name="try_again">Try again</string>
+    <string name="error_export">Export failed: %1$s</string>
+    <string name="error_unknown">unknown error</string>
+</resources>

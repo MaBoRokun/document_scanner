@@ -1,11 +1,8 @@
-    plugins {
-        alias(libs.plugins.android.application) apply false
-        alias(libs.plugins.kotlin.compose) apply false
-        alias(libs.plugins.ktlint) apply false
-        alias(libs.plugins.detekt) apply false
-    }
+plugins {
+    id("docscanner.quality") apply false
+    id("docscanner.coverage")
+}
 
 subprojects {
-    apply(plugin = "org.jlleitschuh.gradle.ktlint")
-    apply(plugin = "dev.detekt")
+    apply(plugin = "docscanner.quality")
 }

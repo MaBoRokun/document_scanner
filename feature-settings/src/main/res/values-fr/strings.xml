@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Retour</string>
+    <string name="settings">Paramètres</string>
+    <string name="section_scanning">Numérisation</string>
+    <string name="quick_scan_title">Numérisation rapide (Google)</string>
+    <string name="quick_scan_on">Utilise le scanner de documents de Google, exécuté par les services Google Play.</string>
+    <string name="quick_scan_off">Nécessite les services Google Play, absents de cet appareil.</string>
+    <string name="paper_size">Format de papier</string>
+    <string name="paper_detail">Affiché pendant la numérisation</string>
+    <string name="none">Aucun</string>
+    <string name="section_assistants">Assistants</string>
+    <string name="assistants_title">Autoriser les assistants à rechercher dans mes documents</string>
+    <string name="assistants_on">Ne partage que les titres, dates et totaux, jamais les images ni le texte complet.</string>
+    <string name="assistants_off">Nécessite Android 16 ou une version ultérieure.</string>
+    <string name="section_privacy">Confidentialité</string>
+    <string name="privacy_network">Cette application n’a aucune autorisation réseau et ne peut rien envoyer nulle part.</string>
+    <string name="privacy_no_tracking">Pas d’analyses, pas de comptes, pas de cloud.</string>
+    <string name="privacy_storage">Les documents, textes et exports restent dans le stockage privé de l’application jusqu’à ce que vous les partagiez vous-même.</string>
+    <string name="privacy_on_device">La reconnaissance de texte et la détection des bords s’exécutent sur cet appareil.</string>
+    <string name="privacy_quick_scan">La numérisation rapide est facultative : elle est exécutée par les services Google Play, qui peuvent télécharger leur propre modèle.</string>
+</resources>

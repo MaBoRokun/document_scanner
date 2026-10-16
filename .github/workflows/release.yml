@@ -28,8 +28,6 @@ jobs:
           distribution: temurin
           java-version: 17
       - uses: gradle/actions/setup-gradle@v6
-        with:
-          gradle-version: 9.8.0
       - name: Accept Android SDK licenses
         run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
       - name: Decode keystore
@@ -41,10 +39,10 @@ jobs:
           echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
       - name: Build signed release (APK + AAB)
         if: env.HAS_KEYSTORE == 'true'
-        run: gradle :app:assembleRelease :app:bundleRelease --stacktrace
+        run: ./gradlew :app:assembleRelease :app:bundleRelease --stacktrace
       - name: Build debug-signed fallback (no signing secrets present)
         if: env.HAS_KEYSTORE != 'true'
-        run: gradle :app:assembleDebug --stacktrace
+        run: ./gradlew :app:assembleDebug --stacktrace
       - name: Collect artifacts
         run: |
           mkdir dist
@@ -54,6 +52,9 @@ jobs:
           else
             cp app/build/outputs/apk/debug/*.apk "dist/doc-scanner-$TAG-DEBUG-SIGNED-NOT-FOR-RELEASE.apk"
           fi
+      - name: APK smoke check (package, no INTERNET)
+        run: |
+          for apk in dist/*.apk; do bash tools/check_apk.sh "$apk"; done
       - uses: actions/upload-artifact@v7
         with:
           name: android-dist

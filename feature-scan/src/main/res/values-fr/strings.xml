@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Numériser</string>
+    <string name="add_page">Ajouter une page</string>
+    <string name="camera_access">Accès à l’appareil photo</string>
+    <string name="camera_rationale">Doc Scanner utilise l’appareil photo pour numériser des documents. Rien de ce que vous numérisez ne quitte votre appareil.</string>
+    <string name="allow_camera">Autoriser l’appareil photo</string>
+    <string name="camera_off">L’appareil photo est désactivé</string>
+    <string name="camera_off_message">Activez l’accès à l’appareil photo dans les réglages de l’app pour numériser des documents.</string>
+    <string name="open_settings">Ouvrir les réglages</string>
+    <string name="busy_saving">Redressement de la page et lecture du texte…</string>
+    <string name="busy_ready">Préparation…</string>
+    <string name="quick_scan_unavailable">Numérisation rapide indisponible</string>
+    <string name="close">Fermer</string>
+    <string name="something_wrong">Une erreur s’est produite</string>
+    <string name="dismiss">Ignorer</string>
+    <string name="reset_corners">Réinitialiser les coins</string>
+    <string name="no_paper_size">Aucun format de papier</string>
+    <string name="choose_paper_size">Choisir le format de papier</string>
+    <string name="adjust_page">Ajuster la page</string>
+    <string name="retake">Reprendre</string>
+    <string name="save">Enregistrer</string>
+    <string name="captured_photo">Photo capturée</string>
+    <string name="edge_mm">≈ %1$d mm (est.)</string>
+    <string name="hint_tilted">La page est inclinée. Tenez le téléphone parallèlement à elle.</string>
+    <string name="hint_blurry">L’image est floue. Ne bougez pas.</string>
+    <string name="hint_low_confidence">Les bords de la page sont peu nets. Essayez un fond uni et contrasté.</string>
+    <string name="hint_too_small">Rapprochez-vous : la page occupe trop peu du cadre.</string>
+    <string name="hint_aspect">Les proportions ne correspondent pas à ce papier. Vérifiez le format ou l’angle.</string>
+    <string name="status_point">Pointez l’appareil photo vers une page</string>
+    <string name="status_found_paper">Page détectée. Les tailles sont des estimations.</string>
+    <string name="status_manual">Coins définis par vous. Prêt à capturer.</string>
+    <string name="status_found">Page détectée. Prêt à capturer.</string>
+    <string name="error_read_photo">Impossible de lire la photo : %1$s</string>
+    <string name="error_save_scan">Impossible d’enregistrer le scan : %1$s</string>
+    <string name="error_capture">Échec de la capture : %1$s</string>
+    <string name="error_camera">Appareil photo indisponible : %1$s</string>
+    <string name="error_quick_scan">La numérisation rapide est indisponible : %1$s</string>
+    <string name="error_unknown">erreur inconnue</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Scan</string>
+    <string name="add_page">Add page</string>
+    <string name="camera_access">Camera access</string>
+    <string name="camera_rationale">Doc Scanner uses the camera to scan documents. Nothing you scan ever leaves your device.</string>
+    <string name="allow_camera">Allow camera</string>
+    <string name="camera_off">Camera is turned off</string>
+    <string name="camera_off_message">Turn camera access on in the app settings to scan documents.</string>
+    <string name="open_settings">Open settings</string>
+    <string name="busy_saving">Flattening the page and reading its text...</string>
+    <string name="busy_ready">Getting ready...</string>
+    <string name="quick_scan_unavailable">Quick scan unavailable</string>
+    <string name="close">Close</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="reset_corners">Reset corners</string>
+    <string name="no_paper_size">No paper size</string>
+    <string name="choose_paper_size">Choose paper size</string>
+    <string name="adjust_page">Adjust page</string>
+    <string name="retake">Retake</string>
+    <string name="save">Save</string>
+    <string name="captured_photo">Captured photo</string>
+    <string name="edge_mm">≈ %1$d mm (est.)</string>
+    <string name="hint_tilted">The page is tilted. Hold the phone parallel to it.</string>
+    <string name="hint_blurry">Image is blurry. Hold steady.</string>
+    <string name="hint_low_confidence">Page edges are unclear. Try a plain, contrasting background.</string>
+    <string name="hint_too_small">Move closer: the page fills too little of the frame.</string>
+    <string name="hint_aspect">Proportions do not match this paper. Check the format or the angle.</string>
+    <string name="status_point">Point the camera at a page</string>
+    <string name="status_found_paper">Page found. Sizes are estimates.</string>
+    <string name="status_manual">Corners set by you. Ready to capture.</string>
+    <string name="status_found">Page found. Ready to capture.</string>
+    <string name="error_read_photo">Could not read the photo: %1$s</string>
+    <string name="error_save_scan">Could not save the scan: %1$s</string>
+    <string name="error_capture">Capture failed: %1$s</string>
+    <string name="error_camera">Camera unavailable: %1$s</string>
+    <string name="error_quick_scan">Quick scan is unavailable: %1$s</string>
+    <string name="error_unknown">unknown error</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tool_crop">Cortar</string>
+    <string name="tool_adjust">Ajustar</string>
+    <string name="tool_filters">Filtros</string>
+    <string name="tool_draw">Desenhar</string>
+    <string name="pen_thin">Fina</string>
+    <string name="pen_medium">Média</string>
+    <string name="pen_thick">Grossa</string>
+    <string name="tint_none">Nenhum</string>
+    <string name="tint_warm">Quente</string>
+    <string name="tint_cool">Frio</string>
+    <string name="tint_sepia">Sépia</string>
+    <string name="tint_mono">Mono</string>
+    <string name="tint_vivid">Vívido</string>
+    <string name="mode_original">Original</string>
+    <string name="mode_document">Documento</string>
+    <string name="mode_bw">P&amp;B</string>
+    <string name="color_black">Preto</string>
+    <string name="color_white">Branco</string>
+    <string name="color_red">Vermelho</string>
+    <string name="color_yellow">Amarelo</string>
+    <string name="color_blue">Azul</string>
+    <string name="pen_colour">Cor da caneta: %1$s</string>
+    <string name="crop_hint">Arraste os cantos até as bordas da página.</string>
+    <string name="crop_removes_drawing">Alterar o corte remove seu desenho. Desfazer o traz de volta.</string>
+    <string name="draw_hint">Desenhe com o dedo para destacar algo ou cobrir.</string>
+    <string name="brightness">Brilho</string>
+    <string name="page_gone">Esta página não existe mais.</string>
+    <string name="original_photo">Foto original</string>
+    <string name="page_preview">Pré-visualização da página</string>
+    <string name="discard_title">Descartar alterações?</string>
+    <string name="discard_message">Suas edições nesta página não foram salvas.</string>
+    <string name="discard">Descartar</string>
+    <string name="keep_editing">Continuar editando</string>
+    <string name="edit_page">Editar página</string>
+    <string name="undo_cd">Desfazer a última alteração</string>
+    <string name="saving">Salvando…</string>
+    <string name="save">Salvar</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Atrás</string>
+    <string name="settings">Ajustes</string>
+    <string name="section_scanning">Escaneo</string>
+    <string name="quick_scan_title">Escaneo rápido (Google)</string>
+    <string name="quick_scan_on">Usa el escáner de documentos de Google, ejecutado por los servicios de Google Play.</string>
+    <string name="quick_scan_off">Requiere los servicios de Google Play, que este dispositivo no tiene.</string>
+    <string name="paper_size">Tamaño de papel</string>
+    <string name="paper_detail">Se muestra al escanear</string>
+    <string name="none">Ninguno</string>
+    <string name="section_assistants">Asistentes</string>
+    <string name="assistants_title">Permitir que los asistentes busquen en mis documentos</string>
+    <string name="assistants_on">Solo comparte títulos, fechas y totales, nunca imágenes ni el texto completo.</string>
+    <string name="assistants_off">Requiere Android 16 o posterior.</string>
+    <string name="section_privacy">Privacidad</string>
+    <string name="privacy_network">Esta app no tiene permiso de red y no puede enviar nada a ningún sitio.</string>
+    <string name="privacy_no_tracking">Sin analíticas, sin cuentas, sin nube.</string>
+    <string name="privacy_storage">Los documentos, el texto y las exportaciones permanecen en el almacenamiento privado de la app hasta que tú los compartas.</string>
+    <string name="privacy_on_device">El reconocimiento de texto y la detección de bordes se ejecutan en este dispositivo.</string>
+    <string name="privacy_quick_scan">El escaneo rápido es opcional: lo ejecutan los servicios de Google Play, que pueden descargar su propio modelo.</string>
+</resources>

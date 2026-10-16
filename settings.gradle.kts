@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google()
         mavenCentral()
@@ -13,5 +14,19 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ondevice-doc-scanner"
-include(":app")
+rootProject.name = "document_scanner"
+include(
+    ":app",
+    ":core:common",
+    ":core:designsystem",
+    ":domain",
+    ":data",
+    ":vision",
+    ":ocr",
+    ":feature-scan",
+    ":feature-library",
+    ":feature-export",
+    ":feature-editor",
+    ":feature-settings",
+    ":appfunctions",
+)

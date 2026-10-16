@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Digitalizar</string>
+    <string name="add_page">Adicionar página</string>
+    <string name="camera_access">Acesso à câmera</string>
+    <string name="camera_rationale">O Doc Scanner usa a câmera para digitalizar documentos. Nada do que você digitaliza sai do seu dispositivo.</string>
+    <string name="allow_camera">Permitir câmera</string>
+    <string name="camera_off">A câmera está desativada</string>
+    <string name="camera_off_message">Ative o acesso à câmera nas configurações do app para digitalizar documentos.</string>
+    <string name="open_settings">Abrir configurações</string>
+    <string name="busy_saving">Alinhando a página e lendo o texto…</string>
+    <string name="busy_ready">Preparando…</string>
+    <string name="quick_scan_unavailable">Digitalização rápida indisponível</string>
+    <string name="close">Fechar</string>
+    <string name="something_wrong">Algo deu errado</string>
+    <string name="dismiss">Dispensar</string>
+    <string name="reset_corners">Redefinir cantos</string>
+    <string name="no_paper_size">Sem tamanho de papel</string>
+    <string name="choose_paper_size">Escolher tamanho do papel</string>
+    <string name="adjust_page">Ajustar página</string>
+    <string name="retake">Refazer</string>
+    <string name="save">Salvar</string>
+    <string name="captured_photo">Foto capturada</string>
+    <string name="edge_mm">≈ %1$d mm (est.)</string>
+    <string name="hint_tilted">A página está inclinada. Mantenha o celular paralelo a ela.</string>
+    <string name="hint_blurry">A imagem está desfocada. Mantenha firme.</string>
+    <string name="hint_low_confidence">As bordas da página estão pouco nítidas. Tente um fundo liso e contrastante.</string>
+    <string name="hint_too_small">Aproxime-se: a página ocupa pouco do quadro.</string>
+    <string name="hint_aspect">As proporções não correspondem a este papel. Confira o formato ou o ângulo.</string>
+    <string name="status_point">Aponte a câmera para uma página</string>
+    <string name="status_found_paper">Página encontrada. Os tamanhos são estimativas.</string>
+    <string name="status_manual">Cantos definidos por você. Pronto para capturar.</string>
+    <string name="status_found">Página encontrada. Pronto para capturar.</string>
+    <string name="error_read_photo">Não foi possível ler a foto: %1$s</string>
+    <string name="error_save_scan">Não foi possível salvar a digitalização: %1$s</string>
+    <string name="error_capture">Falha na captura: %1$s</string>
+    <string name="error_camera">Câmera indisponível: %1$s</string>
+    <string name="error_quick_scan">A digitalização rápida está indisponível: %1$s</string>
+    <string name="error_unknown">erro desconhecido</string>
+</resources>

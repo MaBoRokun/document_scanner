@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tool_crop">Crop</string>
+    <string name="tool_adjust">Adjust</string>
+    <string name="tool_filters">Filters</string>
+    <string name="tool_draw">Draw</string>
+    <string name="pen_thin">Thin</string>
+    <string name="pen_medium">Medium</string>
+    <string name="pen_thick">Thick</string>
+    <string name="tint_none">None</string>
+    <string name="tint_warm">Warm</string>
+    <string name="tint_cool">Cool</string>
+    <string name="tint_sepia">Sepia</string>
+    <string name="tint_mono">Mono</string>
+    <string name="tint_vivid">Vivid</string>
+    <string name="mode_original">Original</string>
+    <string name="mode_document">Document</string>
+    <string name="mode_bw">B &amp; W</string>
+    <string name="color_black">Black</string>
+    <string name="color_white">White</string>
+    <string name="color_red">Red</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_blue">Blue</string>
+    <string name="pen_colour">Pen colour %1$s</string>
+    <string name="crop_hint">Drag the corners onto the page edges.</string>
+    <string name="crop_removes_drawing">Changing the crop removes your drawing. Undo brings it back.</string>
+    <string name="draw_hint">Draw with your finger to point at something or cover it up.</string>
+    <string name="brightness">Brightness</string>
+    <string name="page_gone">This page no longer exists.</string>
+    <string name="original_photo">Original photo</string>
+    <string name="page_preview">Page preview</string>
+    <string name="discard_title">Discard changes?</string>
+    <string name="discard_message">Your edits to this page have not been saved.</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="edit_page">Edit page</string>
+    <string name="undo_cd">Undo last change</string>
+    <string name="saving">Saving</string>
+    <string name="save">Save</string>
+</resources>

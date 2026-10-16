@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.compose)
+    id("com.android.application")
+    id("docscanner.android-compose")
 }
 
 android {
@@ -13,6 +13,12 @@ android {
         versionCode = 1
         versionName = "0.1.0"
     }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    // The app is translated into these languages; other languages from libraries are not packaged.
+    androidResources.localeFilters += listOf("en", "de", "fr", "pt", "es")
 
     signingConfigs {
         // Release signing only when the CI release job provides the keystore via env (owner-added secrets).
@@ -33,9 +39,50 @@ android {
     }
 }
 
+// Privacy gate (CONTRIBUTING.md): fail the build if any merged manifest asks for the network.
+androidComponents {
+    onVariants { variant ->
+        val manifest = variant.artifacts.get(com.android.build.api.artifact.SingleArtifact.MERGED_MANIFEST)
+        val gate =
+            tasks.register("check${variant.name.replaceFirstChar { it.uppercase() }}NoInternetPermission") {
+                inputs.file(manifest)
+                doLast {
+                    val xml =
+                        manifest.get().asFile.readText().replace(
+                            Regex("<!--.*?-->", RegexOption.DOT_MATCHES_ALL),
+                            "",
+                        )
+                    check(!Regex("""<uses-permission[^>]*android\.permission\.INTERNET""").containsMatchIn(xml)) {
+                        "The merged manifest of ${variant.name} declares INTERNET"
+                    }
+                }
+            }
+        tasks.named("check") { dependsOn(gate) }
+    }
+}
+
+// The only composition root: it may see every module.
 dependencies {
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.compose.material3)
+    implementation(project(":core:common"))
+    implementation(project(":core:designsystem"))
+    implementation(project(":domain"))
+    implementation(project(":data"))
+    implementation(project(":vision"))
+    implementation(project(":ocr"))
+    implementation(project(":feature-scan"))
+    implementation(project(":feature-library"))
+    implementation(project(":feature-export"))
+    implementation(project(":feature-editor"))
+    implementation(project(":feature-settings"))
+    implementation(project(":appfunctions"))
     implementation(libs.androidx.activity.compose)
-    testImplementation("junit:junit:4.13.2")
+    implementation(libs.androidx.navigation3.runtime)
+    implementation(libs.androidx.navigation3.ui)
+    implementation(libs.androidx.lifecycle.viewmodel.navigation3)
+    implementation(libs.koin.android)
+    implementation(libs.play.services.base)
+    implementation(libs.koin.androidx.compose)
+    testImplementation(libs.junit)
+    testImplementation(libs.koin.test)
+    testImplementation(kotlin("reflect"))
 }

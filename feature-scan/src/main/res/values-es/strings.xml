@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">Escanear</string>
+    <string name="add_page">Añadir página</string>
+    <string name="camera_access">Acceso a la cámara</string>
+    <string name="camera_rationale">Doc Scanner usa la cámara para escanear documentos. Nada de lo que escaneas sale de tu dispositivo.</string>
+    <string name="allow_camera">Permitir cámara</string>
+    <string name="camera_off">La cámara está desactivada</string>
+    <string name="camera_off_message">Activa el acceso a la cámara en los ajustes de la app para escanear documentos.</string>
+    <string name="open_settings">Abrir ajustes</string>
+    <string name="busy_saving">Enderezando la página y leyendo su texto…</string>
+    <string name="busy_ready">Preparando…</string>
+    <string name="quick_scan_unavailable">Escaneo rápido no disponible</string>
+    <string name="close">Cerrar</string>
+    <string name="something_wrong">Algo salió mal</string>
+    <string name="dismiss">Descartar</string>
+    <string name="reset_corners">Restablecer esquinas</string>
+    <string name="no_paper_size">Sin tamaño de papel</string>
+    <string name="choose_paper_size">Elegir tamaño de papel</string>
+    <string name="adjust_page">Ajustar página</string>
+    <string name="retake">Repetir</string>
+    <string name="save">Guardar</string>
+    <string name="captured_photo">Foto capturada</string>
+    <string name="edge_mm">≈ %1$d mm (est.)</string>
+    <string name="hint_tilted">La página está inclinada. Mantén el teléfono paralelo a ella.</string>
+    <string name="hint_blurry">La imagen está borrosa. Mantén firme el teléfono.</string>
+    <string name="hint_low_confidence">Los bordes de la página no se ven claros. Prueba con un fondo liso y con contraste.</string>
+    <string name="hint_too_small">Acércate: la página ocupa muy poco del encuadre.</string>
+    <string name="hint_aspect">Las proporciones no coinciden con este papel. Revisa el formato o el ángulo.</string>
+    <string name="status_point">Apunta la cámara a una página</string>
+    <string name="status_found_paper">Página encontrada. Los tamaños son estimaciones.</string>
+    <string name="status_manual">Esquinas definidas por ti. Listo para capturar.</string>
+    <string name="status_found">Página encontrada. Listo para capturar.</string>
+    <string name="error_read_photo">No se pudo leer la foto: %1$s</string>
+    <string name="error_save_scan">No se pudo guardar el escaneo: %1$s</string>
+    <string name="error_capture">Error al capturar: %1$s</string>
+    <string name="error_camera">Cámara no disponible: %1$s</string>
+    <string name="error_quick_scan">El escaneo rápido no está disponible: %1$s</string>
+    <string name="error_unknown">error desconocido</string>
+</resources>

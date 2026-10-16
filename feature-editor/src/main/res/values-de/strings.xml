@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tool_crop">Zuschnitt</string>
+    <string name="tool_adjust">Anpassen</string>
+    <string name="tool_filters">Filter</string>
+    <string name="tool_draw">Zeichnen</string>
+    <string name="pen_thin">Dünn</string>
+    <string name="pen_medium">Mittel</string>
+    <string name="pen_thick">Dick</string>
+    <string name="tint_none">Keiner</string>
+    <string name="tint_warm">Warm</string>
+    <string name="tint_cool">Kühl</string>
+    <string name="tint_sepia">Sepia</string>
+    <string name="tint_mono">Mono</string>
+    <string name="tint_vivid">Lebhaft</string>
+    <string name="mode_original">Original</string>
+    <string name="mode_document">Dokument</string>
+    <string name="mode_bw">S/W</string>
+    <string name="color_black">Schwarz</string>
+    <string name="color_white">Weiß</string>
+    <string name="color_red">Rot</string>
+    <string name="color_yellow">Gelb</string>
+    <string name="color_blue">Blau</string>
+    <string name="pen_colour">Stiftfarbe %1$s</string>
+    <string name="crop_hint">Ziehe die Ecken auf die Seitenränder.</string>
+    <string name="crop_removes_drawing">Beim Ändern des Zuschnitts wird deine Zeichnung entfernt. „Rückgängig“ bringt sie zurück.</string>
+    <string name="draw_hint">Zeichne mit dem Finger, um etwas zu markieren oder zu verdecken.</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="page_gone">Diese Seite existiert nicht mehr.</string>
+    <string name="original_photo">Originalfoto</string>
+    <string name="page_preview">Seitenvorschau</string>
+    <string name="discard_title">Änderungen verwerfen?</string>
+    <string name="discard_message">Deine Änderungen an dieser Seite wurden nicht gespeichert.</string>
+    <string name="discard">Verwerfen</string>
+    <string name="keep_editing">Weiter bearbeiten</string>
+    <string name="edit_page">Seite bearbeiten</string>
+    <string name="undo_cd">Letzte Änderung rückgängig machen</string>
+    <string name="saving">Speichern …</string>
+    <string name="save">Speichern</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="category_receipt">Beleg</string>
+    <string name="category_passport">Reisepass / Ausweis</string>
+    <string name="category_book_page">Buchseite</string>
+    <string name="category_a4_page">A4-Seite</string>
+    <string name="category_document">Dokument</string>
+    <string name="category_other">Sonstiges</string>
+    <string name="capture">Aufnehmen</string>
+    <string name="close">Schließen</string>
+</resources>

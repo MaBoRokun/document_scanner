@@ -38,6 +38,8 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Upload reports
         if: always()
+        # Diagnostics only: a full artifact quota must not fail an otherwise green build.
+        continue-on-error: true
         uses: actions/upload-artifact@v7
         with:
           name: reports

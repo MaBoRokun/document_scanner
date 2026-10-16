@@ -91,8 +91,8 @@ is the only module that sees implementations. UI text lives in string resources.
 2. On the phone, allow installing apps from unknown sources for the app you used to open the file.
 3. Open the APK and confirm the install.
 
-Every push to `main` also uploads a debug APK as a workflow artifact (kept 14 days) on the
-**Actions → APK (debug)** run page. This repository is private, so you must be signed in to GitHub to download.
+A debug APK can also be built on demand from **Actions → APK (debug) → Run workflow** (kept 14 days as a workflow artifact).
+This repository is private, so you must be signed in to GitHub to download.
 
 Requires Android 8.0 (API 26) or newer. Built for Android 17 (API 37).
 
@@ -123,10 +123,11 @@ Instrumented tests (native code, camera-free pipeline, OCR on a real engine, PDF
 
 | Workflow | Runs on | What it does |
 |---|---|---|
-| [`ci.yml`](.github/workflows/ci.yml) | every pull request and push to `main` | ktlint, detekt, Android lint, unit and screenshot tests, coverage gates, debug build, APK smoke check |
-| [`apk-debug.yml`](.github/workflows/apk-debug.yml) | push to `main`, manual | builds the debug APK and uploads it as an artifact (14 days) |
-| [`release.yml`](.github/workflows/release.yml) | tags `v*.*.*` | builds a signed APK and AAB when the signing secrets exist (otherwise a debug-signed APK, named as such), writes checksums and creates a GitHub Release |
+| [`release.yml`](.github/workflows/release.yml) | tags `v*.*.*` | runs `ci.yml` first, then builds a signed APK and AAB when the signing secrets exist (otherwise a debug-signed APK, named as such), writes checksums and creates a GitHub Release |
+| [`ci.yml`](.github/workflows/ci.yml) | called by `release.yml`, or started by hand | ktlint, detekt, Android lint, unit and screenshot tests, coverage gates, debug build, APK smoke check |
+| [`apk-debug.yml`](.github/workflows/apk-debug.yml) | started by hand | builds the debug APK and uploads it as an artifact (14 days) |
 
+Nothing runs on ordinary pushes or pull requests; CI/CD runs for releases (or by hand). Run the checks locally before pushing.
 Workflows use least-privilege `permissions`, cancel superseded runs, never use `pull_request_target`, and use current
 versions of the third-party actions (Dependabot keeps them and the Gradle dependencies up to date).
 

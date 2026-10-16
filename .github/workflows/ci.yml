@@ -1,9 +1,9 @@
 name: CI
 
+# Not run on pushes or pull requests: the release workflow calls it before building a release.
 on:
-  pull_request:
-  push:
-    branches: [main]
+  workflow_call:
+  workflow_dispatch:
 
 permissions:
   contents: read

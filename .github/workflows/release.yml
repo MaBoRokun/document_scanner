@@ -62,8 +62,6 @@ jobs:
       - name: APK smoke check (package, no INTERNET)
         run: |
           for apk in dist/*.apk; do bash tools/check_apk.sh "$apk"; done
-      - name: Source code zip
-        run: git archive --format=zip --prefix="document_scanner-$TAG/" -o "dist/document_scanner-$TAG-source.zip" HEAD
       # Published from this job: no artifact hop, so it does not depend on Actions artifact storage.
       - name: Checksums
         run: |

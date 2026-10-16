@@ -124,7 +124,7 @@ Instrumented tests (native code, camera-free pipeline, OCR on a real engine, PDF
 
 | Workflow | Runs on | What it does |
 |---|---|---|
-| [`release.yml`](.github/workflows/release.yml) | tags `v*.*` (for example `v1.0`) | runs `ci.yml` first, then builds a signed APK and AAB when the signing secrets exist (otherwise a debug-signed APK, named as such), writes checksums and attaches a zip of the source code and creates a GitHub Release |
+| [`release.yml`](.github/workflows/release.yml) | tags `v*.*` (for example `v1.0`) | runs `ci.yml` first, then builds a signed APK and AAB when the signing secrets exist (otherwise a debug-signed APK, named as such), writes checksums and creates a GitHub Release (GitHub adds the source archives itself) |
 | [`ci.yml`](.github/workflows/ci.yml) | called by `release.yml`, or started by hand | ktlint, detekt, Android lint, unit and screenshot tests, coverage gates, debug build, APK smoke check |
 | [`apk-debug.yml`](.github/workflows/apk-debug.yml) | started by hand | builds the debug APK and uploads it as an artifact (14 days) |
 

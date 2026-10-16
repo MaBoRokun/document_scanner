@@ -10,11 +10,12 @@ Android receipt and document scanner with on-device ML, CameraX, native C++ edge
 [![Release](https://img.shields.io/github/v/release/MaBoRokun/document_scanner)](https://github.com/MaBoRokun/document_scanner/releases)
 <!-- Badges for private repos render only for signed-in collaborators. -->
 
-![Scan, review, library, PDF export](docs/media/demo.gif)
+![Library, scan, adjust page, result screen, share dialog, page editor, library](docs/media/demo.gif)
 
-*Recorded on an Android 17 emulator with its built-in test camera scene, so the "page" is a cartoon house, not a document,
-and on an earlier build of the UI. Receipts and pages used by the tests are synthetic images made by
-[`tools/generate_synthetic.py`](tools/generate_synthetic.py).*
+*Recorded on an Android 17 emulator with its built-in test camera scene, so the "page" is a living room, not a document,
+and OCR finds no text in it. Receipts and pages used by the tests are synthetic images made by
+[`tools/generate_synthetic.py`](tools/generate_synthetic.py); the GIF is built from screenshots by
+[`tools/make_demo_gif.py`](tools/make_demo_gif.py).*
 
 > **Privacy:** no network permission, no analytics, no cloud. See [Privacy](#privacy).
 

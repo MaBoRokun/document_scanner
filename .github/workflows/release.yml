@@ -19,7 +19,10 @@ jobs:
     needs: [verify]
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    permissions:
+      contents: write
     env:
+      GH_TOKEN: ${{ github.token }}
       HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
       KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
       KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
@@ -59,27 +62,7 @@ jobs:
       - name: APK smoke check (package, no INTERNET)
         run: |
           for apk in dist/*.apk; do bash tools/check_apk.sh "$apk"; done
-      - uses: actions/upload-artifact@v7
-        with:
-          name: android-dist
-          path: dist/*
-          retention-days: 7
-          if-no-files-found: error
-
-  publish:
-    needs: [android]
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      contents: write
-    env:
-      GH_TOKEN: ${{ github.token }}
-      TAG: ${{ github.ref_name }}
-    steps:
-      - uses: actions/download-artifact@v8
-        with:
-          path: dist
-          merge-multiple: true
+      # Published from this job: no artifact hop, so it does not depend on Actions artifact storage.
       - name: Checksums
         run: |
           cd dist

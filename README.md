@@ -2,7 +2,7 @@
 
 Android receipt and document scanner with on-device ML, CameraX, native C++ edge detection and Jetpack Compose Canvas overlays for edges and measurements. Everything runs on the device.
 
-![Status](https://img.shields.io/badge/status-v0.1.0-brightgreen)
+![Status](https://img.shields.io/badge/status-v1.0-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Coverage](https://img.shields.io/badge/coverage-89.4%25-brightgreen)
 ![Languages](https://img.shields.io/badge/languages-EN%20DE%20FR%20PT%20ES-blue)
@@ -124,7 +124,7 @@ Instrumented tests (native code, camera-free pipeline, OCR on a real engine, PDF
 
 | Workflow | Runs on | What it does |
 |---|---|---|
-| [`release.yml`](.github/workflows/release.yml) | tags `v*.*.*` | runs `ci.yml` first, then builds a signed APK and AAB when the signing secrets exist (otherwise a debug-signed APK, named as such), writes checksums and creates a GitHub Release |
+| [`release.yml`](.github/workflows/release.yml) | tags `v*.*` (for example `v1.0`) | runs `ci.yml` first, then builds a signed APK and AAB when the signing secrets exist (otherwise a debug-signed APK, named as such), writes checksums and attaches a zip of the source code and creates a GitHub Release |
 | [`ci.yml`](.github/workflows/ci.yml) | called by `release.yml`, or started by hand | ktlint, detekt, Android lint, unit and screenshot tests, coverage gates, debug build, APK smoke check |
 | [`apk-debug.yml`](.github/workflows/apk-debug.yml) | started by hand | builds the debug APK and uploads it as an artifact (14 days) |
 

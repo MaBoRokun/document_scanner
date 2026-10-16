@@ -3,9 +3,9 @@
 Rules and commands for anyone changing this repository.
 
 ## Before you start
-1. Read `TECHNICAL_PLAN.md` completely. Work on one milestone at a time and stop when its acceptance criteria are met.
+1. Read the README and the decisions in `docs/adr` first. Keep each change focused on one thing.
 2. Re-verify library, plugin and GitHub Action versions against official sources before adding or bumping any
-   dependency (the plan lists the sources). Do not copy versions from memory.
+   dependency. Do not copy versions from memory.
 
 ## Hard rules
 - No real data, real personal documents, real patient data or secrets. Synthetic data only.
@@ -43,7 +43,7 @@ Easy to trip over:
 - The merged manifest must stay free of `INTERNET` (ML Kit adds it; the app manifest removes it).
 
 ## Working style
-- Small commits with clear messages; one milestone per change set.
+- Small commits with clear messages; one logical change per commit.
 - Tests accompany logic changes (`runTest`, Turbine for Flows). Inject dispatchers and clocks.
 - Record decisions as ADRs in `docs/adr/`.
 - Say exactly what was run and the result; if something failed or was skipped, say so.

@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    ndkVersion = "28.2.13676358" // AGP 9.4 default; see TECHNICAL_PLAN.md section 5
+    ndkVersion = "28.2.13676358" // AGP 9.4 default
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")

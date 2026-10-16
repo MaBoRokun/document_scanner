@@ -3,7 +3,7 @@ plugins {
     id("com.google.devtools.ksp")
 }
 
-// Isolated on purpose: this is an alpha library for Android 16+ only, off by default (TECHNICAL_PLAN.md R1).
+// Isolated on purpose: this is an alpha library for Android 16+ only, off by default (see docs/adr/008-appfunctions.md).
 dependencies {
     implementation(project(":domain"))
     implementation(project(":core:common"))

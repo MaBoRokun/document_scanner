@@ -177,5 +177,5 @@ pages with known corners. Everything is seeded, so the output is identical on ev
 
 ## Layout and docs
 
-[TECHNICAL_PLAN.md](TECHNICAL_PLAN.md) is the original design and milestone plan; [docs/adr](docs/adr) records decisions made on the way;
+[docs/adr](docs/adr) records the design decisions;
 [docs/design.md](docs/design.md) describes the visual design; [CONTRIBUTING.md](CONTRIBUTING.md) lists the rules for changes.

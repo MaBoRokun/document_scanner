@@ -8,4 +8,4 @@ labels: enhancement
 
 **Proposed solution**
 
-**Which milestone in TECHNICAL_PLAN.md does it relate to?**
+**Which part of the app does it relate to?**
